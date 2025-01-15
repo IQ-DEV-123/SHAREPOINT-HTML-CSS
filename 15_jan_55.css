@@ -1,0 +1,49 @@
+/* card section start */
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    width: 22%;
+    margin: auto;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 0px 4px rgba(128, 128, 128, 0.363);
+    float: left;
+    margin: 10px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card button{
+    border: 0;
+    padding: 10px 25px;
+    background-color: orange;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card h1{
+    color: orange;
+}
+
+/* serervice */
+
+.bg-img{
+    background: linear-gradient(rgba(255, 0, 0, 0.227),rgba(0, 0, 255, 0.212)),url('pic1.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+.bg-img p{
+    color: aliceblue;
+    font-size: 18px;
+    text-align: center;
+    width: 50%;
+    margin-left: 300px;
+}
