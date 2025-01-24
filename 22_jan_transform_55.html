@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .img{
+        width: 200px;
+        border: 2px solid;
+        padding: 10px;
+      
+    }
+    .img img{
+        width: 100%;
+        opacity: 0;
+        
+    }
+    img:hover{
+        opacity: 1;
+        transition: 0.3s all;
+    }
+    .main{
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .col{
+        height: 200px;
+        width: 200px;
+        border: 2px solid red;
+        
+    }
+    .col-1:hover{
+        transform: translateX(100px);
+        transform: translateY(100px);
+        transform: translate(100px,200px);
+        transition: 1s all;
+        background-color: red;
+    }
+    .col-2:hover{
+        transform: rotateX(200deg);
+        transform: rotateY(90deg);
+        transform: rotate(360deg);
+        border-radius: 100%;
+        
+        transition: 1s all;
+        background-color: red;
+    }
+
+    .col-3:hover{
+        transform: scaleX(4);
+        transform: scaleY(4);
+        transform: scale(4);
+        transition: 1s all;
+    }
+    .col-4:hover{
+        transform: skewX(30deg);
+        transform: skewY(30deg);
+        transform: skew(30deg,60deg);
+        
+        
+        transition: 1s all;
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="col col-1"></div>
+        <div class="col col-2"></div>
+        <div class="col col-3"></div>
+        <div class="col col-4"></div>
+    </div>
+
+    <div class="img">
+        <img src="pic1.jpg" alt="">
+    </div>
+</body>
+</html>
